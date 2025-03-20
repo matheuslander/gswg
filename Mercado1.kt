@@ -10,7 +10,7 @@ class Mercado(
         return if (estoqueAtual >= quantidade) {
             estoque[produto] = estoqueAtual - quantidade
             "Venda realizada! $quantidade unidades de $produto vendidas."
-        } else {
+        } else{
             "Estoque insuficiente de $produto. Só temos $estoqueAtual unidades."
         }
     }

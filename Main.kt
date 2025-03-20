@@ -7,7 +7,9 @@ fun executarExercicios() {
     ex1()
     ex2()
     ex3(2, 4)
+    ex4(10,5)
     ex4(100, 10)
+    ex4(1000,100)
     ex4(1, 7)
 }
 
